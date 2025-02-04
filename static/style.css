@@ -10,6 +10,16 @@ h1 {
     color: #4F4F4F;
 }
 
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.add {
+    text-align: right;
+}
+
 .post {
     background-color: #FFF;
     border: 1px solid #DDD;
@@ -27,12 +37,10 @@ h1 {
     margin: 10px 0;
 }
 
-a {
-    text-decoration: none;
-    color: green;
-    font-weight: bold;
-}
-
-.add {
-    text-align: right;
+.delete button {
+    color: red;
+    background-color: #FFDAD5;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 20px;
 }
