@@ -16,6 +16,7 @@ h1 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
 .post h2 {
@@ -24,4 +25,14 @@ h1 {
 
 .post p {
     margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.add {
+    text-align: right;
 }
