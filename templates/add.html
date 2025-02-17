@@ -6,16 +6,18 @@
     <title>Add a new blogpost</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-<body>
+<body class="overlay">
     <h2>Add a new blog post</h2>
-    <form method="POST" action="/add">
-        <label for="author">Author:</label><br>
-        <input type="text" id="author" name="author"><br>
-        <label for="title">Title:</label><br>
-        <input type="text" id="title" name="title"><br>
-        <label for="content">Content:</label><br>
-        <input type="text" id="content" name="content"><br>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="form_box">
+        <form method="POST" action="/add">
+            <label for="author">Author</label><br>
+            <input type="text" id="author" name="author"><br>
+            <label for="title">Title</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="content">Content</label><br>
+            <textarea id="content" name="content" rows="4" cols="50"></textarea><br>
+            <input class="submit_button" type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>
